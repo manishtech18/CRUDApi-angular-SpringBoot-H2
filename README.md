@@ -7,12 +7,15 @@ This project is a basic CRUD (Create, Read, Update, Delete) application built wi
 
 
 Technology Stack
+
 Backend:
 Spring Boot (v3.x): Java-based framework for building web applications.
 Spring Data JPA: For database operations.
 H2 Database: In-memory relational database for testing and development.
 Spring Web: For building RESTful APIs.
 Spring Boot DevTools: Provides live reload and faster application restart during development.
+
+
 Frontend:
 Angular (v17.x): Modern, component-based framework for building web applications.
 TypeScript: Superset of JavaScript that adds static typing.
