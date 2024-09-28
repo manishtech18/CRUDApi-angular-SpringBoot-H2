@@ -1,0 +1,21 @@
+<div class="container">
+    <h1>Book List</h1>
+    <button class="get-books-btn"routerLink="/books" onclick="getAllBooks()">Get all Books</button>
+    
+    <table class="book-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Author</th>
+            </tr>
+        </thead>
+        <tbody id="book-list">
+            <tr *ngFor="let Books of allbook">
+                <td>{{book.id}}</td>
+                <td>{{book.title}}</td>
+                <td>{{book.author}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
