@@ -23,3 +23,14 @@ Angular (v17.x): Modern, component-based framework for building web applications
 TypeScript: Superset of JavaScript that adds static typing.
 Bootstrap: For responsive and mobile-first UI design.
 Angular HTTPClient: For interacting with the backend REST APIs.
+
+
+Prerequisites
+
+Make sure you have the following installed:
+
+
+Java 17 or higher
+Node.js (v18.x) and npm (v9.x)
+Angular CLI (v17.x): npm install -g @angular/cli
+Maven: For building the Spring Boot project.
